@@ -6,6 +6,8 @@
 build/
 DerivedData/
 
+WeexStudyDemo/node_modules
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
