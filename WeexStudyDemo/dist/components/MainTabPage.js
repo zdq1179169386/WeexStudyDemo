@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 21);
+/******/ 	return __webpack_require__(__webpack_require__.s = 17);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -113,7 +113,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/qrh/Desktop/测试Demo/WeexStudyDemo/WeexStudyDemo/src/components/NavigationBar.vue"
+__vue_options__.__file = "/Users/a/Desktop/WeexStudyDemo/WeexStudyDemo/src/components/NavigationBar.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-d1a7e442"
@@ -134,11 +134,7 @@ module.exports = __vue_exports__
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = {
-  "title": {
-    "backgroundColor": "#FF0000"
-  }
-}
+module.exports = {}
 
 /***/ }),
 /* 3 */
@@ -231,7 +227,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/qrh/Desktop/测试Demo/WeexStudyDemo/WeexStudyDemo/node_modules/weex-ui/packages/wxc-minibar/index.vue"
+__vue_options__.__file = "/Users/a/Desktop/WeexStudyDemo/WeexStudyDemo/node_modules/weex-ui/packages/wxc-minibar/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-112985b0"
@@ -552,89 +548,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/qrh/Desktop/测试Demo/WeexStudyDemo/WeexStudyDemo/src/components/test.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-e43c18bc"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports) {
-
-module.exports = {}
-
-/***/ }),
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {};
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _vm._m(0)
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('text', [_vm._v("左边")]), _c('text', [_vm._v("中间")]), _c('text', [_vm._v("右边")])])
-}]}
-module.exports.render._withStripped = true
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(15)
-)
-
-/* script */
-__vue_exports__ = __webpack_require__(16)
-
-/* template */
-var __vue_template__ = __webpack_require__(17)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/qrh/Desktop/测试Demo/WeexStudyDemo/WeexStudyDemo/src/components/MainTabPage.vue"
+__vue_options__.__file = "/Users/a/Desktop/WeexStudyDemo/WeexStudyDemo/src/components/MainTabPage.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-4fed844b"
@@ -652,7 +566,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 15 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -662,7 +576,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 16 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -676,9 +590,11 @@ var _Config = __webpack_require__(0);
 
 var _NavigationBar = __webpack_require__(1);
 
-var _test = __webpack_require__(10);
+var _NavigationBar2 = _interopRequireDefault(_NavigationBar);
 
-//
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var dom = weex.requireModule("dom"); //
 //
 //
 //
@@ -688,12 +604,11 @@ var _test = __webpack_require__(10);
 //
 //
 
-var dom = weex.requireModule("dom");
 var modal = weex.requireModule("modal");
 
 exports.default = {
   components: {
-    NavgationBar: _NavigationBar.NavgationBar, test: _test.test
+    NavgationBar: _NavigationBar2.default
   },
   data: function data() {
     return {
@@ -707,7 +622,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 17 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -722,16 +637,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ }),
-/* 18 */,
-/* 19 */,
-/* 20 */,
-/* 21 */
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _MainTabPage = __webpack_require__(14);
+var _MainTabPage = __webpack_require__(10);
 
 var _MainTabPage2 = _interopRequireDefault(_MainTabPage);
 

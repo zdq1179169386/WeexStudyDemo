@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 22);
+/******/ 	return __webpack_require__(__webpack_require__.s = 18);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -113,7 +113,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/qrh/Desktop/测试Demo/WeexStudyDemo/WeexStudyDemo/src/components/NavigationBar.vue"
+__vue_options__.__file = "/Users/a/Desktop/WeexStudyDemo/WeexStudyDemo/src/components/NavigationBar.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-d1a7e442"
@@ -134,11 +134,7 @@ module.exports = __vue_exports__
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = {
-  "title": {
-    "backgroundColor": "#FF0000"
-  }
-}
+module.exports = {}
 
 /***/ }),
 /* 3 */
@@ -231,7 +227,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/qrh/Desktop/测试Demo/WeexStudyDemo/WeexStudyDemo/node_modules/weex-ui/packages/wxc-minibar/index.vue"
+__vue_options__.__file = "/Users/a/Desktop/WeexStudyDemo/WeexStudyDemo/node_modules/weex-ui/packages/wxc-minibar/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-112985b0"
@@ -534,11 +530,7 @@ module.exports.render._withStripped = true
 /* 15 */,
 /* 16 */,
 /* 17 */,
-/* 18 */,
-/* 19 */,
-/* 20 */,
-/* 21 */,
-/* 22 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

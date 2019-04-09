@@ -28,7 +28,6 @@ export default {
 <style scoped>
 
 .title{
-  background-color: red;
 } 
 
 </style>

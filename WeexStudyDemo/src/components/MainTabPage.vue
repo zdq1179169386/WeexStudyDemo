@@ -10,15 +10,14 @@
 <script>
 import { Utils, WxcMinibar } from "weex-ui";
 import { getRealScreenHeight } from "../config/Config";
-import { NavgationBar } from "./NavigationBar";
-import {test} from './test'
+import NavgationBar from "./NavigationBar.vue";
 
 const dom = weex.requireModule("dom");
 const modal = weex.requireModule("modal");
 
 export default {
   components: {
-    NavgationBar,test
+    NavgationBar
   },
   data() {
     return {
