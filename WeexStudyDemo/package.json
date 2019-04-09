@@ -32,12 +32,14 @@
   "dependencies": {
     "phantom-limb": "0.0.1",
     "vue": "^2.5.11",
+    "weex-ui": "^0.6.10",
     "weex-vue-render": "^0.12.26"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-loader": "^7.1.1",
+    "babel-plugin-component": "^1.1.1",
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "css-loader": "^0.28.8",

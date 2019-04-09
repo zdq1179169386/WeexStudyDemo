@@ -4,5 +4,5 @@ import weex from 'weex-vue-render'
 
 weex.init(Vue)
 
-const App = require('../../src/components/HelloWorld.vue');
+const App = require('../../src/components/NavigationBar.vue');
 new Vue(Vue.util.extend({el: '#root'}, App));
