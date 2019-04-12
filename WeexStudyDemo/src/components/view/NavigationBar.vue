@@ -11,7 +11,7 @@
 
 <script>
 import { WxcMinibar } from 'weex-ui';
-import {Config} from '../config/Config'
+import {Config} from '../../config/Config';
 
 export default {
   components:{

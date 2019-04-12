@@ -1,21 +1,27 @@
 <template>
   <div class="wrapper">
-    <maintabpage></maintabpage>
+    <!-- <maintab-page></maintab-page> -->
+    <img src="" >
+
   </div>
 </template>
 
 <script>
-import maintabpage from '@/components/MainTabPage'
+import MaintabPage from '@/components/page/MaintabPage'
+import config from './config/Config'
 
 export default {
   name: 'App',
   components: {
-    maintabpage,
+    MaintabPage,
   },
   data () {
     return {
   
     }
+  },
+  created(){
+    config.getIonFontPath('../../');
   }
 }
 </script>
@@ -26,5 +32,7 @@ export default {
     justify-content: center;
     align-items: center;
   }
-  
+  .iconfont {
+    font-family: iconfont
+  }
 </style>
